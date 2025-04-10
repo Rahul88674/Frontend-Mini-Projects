@@ -1,10 +1,8 @@
 let boxes = document.querySelectorAll(".box");
-let resetBtn = document.querySelectorAll("#reset-btn");
+let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
-
-
 
 const resetGame = () => {
     turnO = true;
